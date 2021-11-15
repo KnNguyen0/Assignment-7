@@ -69,8 +69,6 @@
 
         scene = new THREE.Scene();
 
-        
-
         renderer = new THREE.WebGLRenderer({ alpha: true });
         renderer.setSize( window.innerWidth, window.innerHeight );
         document.body.appendChild( renderer.domElement );
